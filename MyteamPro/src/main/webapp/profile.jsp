@@ -14,7 +14,7 @@
     <div class="insta-container">
         <div class="top-nav">
             <div class="nick">닉네임</div>
-            <div class="menu"><i class="fa-solid fa-bars pull-right"></i></div>
+            <div class="menu"><i class="fa-solid fa-bars pull-right fa-lg"></i></div>
         </div>
 
         <div class="ac-info">
