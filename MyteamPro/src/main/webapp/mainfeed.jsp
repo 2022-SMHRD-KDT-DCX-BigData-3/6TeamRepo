@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,8 @@
 	<div class="ranking_container">
 		<div class="top_nav">
 			<div class="logo_box">
-				<img src="./images/logoname.png" class="logo_box">
+				<a href="mainfeed.jsp"> <img src="./images/logoname.png" class="logo_box">
+				</a>
 			</div>
 			<div class="icon_box">
 				<a href="profile.jsp"><i class="fa-solid fa-user fa-lg"></a></i>
@@ -39,31 +40,33 @@
 			<li><a href="/board.jsp">1:1 대화방</a></li>
 		</ul>
 
-		<br>
-        <a style="font-size: 14px">오늘의 인기 스토리 <a href = "#"><div class = story-plus><i class="fa-sharp fa-solid fa-pencil"></i></div></a>
-    </a>
+		<br> <a style="font-size: 14px">오늘의 인기 스토리 <a href="#"><div
+					class=story-plus>
+					<i class="fa-sharp fa-solid fa-pencil"></i>
+				</div></a>
+		</a>
 
 		<div class="main">
-            <div class = "main-img1">
-			    <div class="pr-img">
-				    <img class="web_img"
-					    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTNfMTc5%2FMDAxNjI2MTQxNTM1Njkz.FepJSK21NB7QrPPtJTDpBIu6Gs6p-SuKLOMkbiO05VYg.w6tONHUz8t3zZvPLZ_-ZEBb8290rFyLvkqFiz-bVCAQg.JPEG.chimmy1004%2FIMG_0530.JPG&type=sc960_832"
-					    alt="프로필_사진">
-				    <!-- <div class="add_icon"> + </div> -->
-			    </div>
-			    nick name
-                
-            </div>
-            <div class="main-img2">
+			<div class="main-img1">
+				<div class="pr-img">
+					<img class="web_img"
+						src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTNfMTc5%2FMDAxNjI2MTQxNTM1Njkz.FepJSK21NB7QrPPtJTDpBIu6Gs6p-SuKLOMkbiO05VYg.w6tONHUz8t3zZvPLZ_-ZEBb8290rFyLvkqFiz-bVCAQg.JPEG.chimmy1004%2FIMG_0530.JPG&type=sc960_832"
+						alt="프로필_사진">
+					<!-- <div class="add_icon"> + </div> -->
+				</div>
+				nick name
+
+			</div>
+			<div class="main-img2">
 				<img src="./images/cover 5.png" class="main-img">
 			</div>
 		</div>
 		<div class="main-tag">
-            <img src="./images/up.png" class="main-tag">
-            <img src="./images/comment.png" class="main-tag">
-            <br>n명이 좋아합니다.
+			<img src="./images/up.png" class="main-tag"> <img
+				src="./images/comment.png" class="main-tag"> <br>n명이
+			좋아합니다.
 		</div>
-		
+
 	</div>
 
 

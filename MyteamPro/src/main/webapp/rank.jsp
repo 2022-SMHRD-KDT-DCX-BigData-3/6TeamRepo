@@ -14,8 +14,9 @@
 
     <div class="rank_container">
         <div class="top_nav">
-            <div class="logo_box"><img class="logo" src="./images/logoname.png"></div>
-            <div class="icon_box"><i class="fa-solid fa-user fa-2x"></i> &nbsp&nbsp <i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
+            <div class="logo_box"><a href="./mainfeed.jsp"><img class="logo" src="./images/logoname.png"></a></div>
+            <div class="icon_box"><a href="./profile.jsp"> <i class="fa-solid fa-user fa-2x"></a></i> &nbsp&nbsp 
+            																			<i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
         </div>
 
         <!-- <div class="menu_nav">
@@ -26,10 +27,10 @@
         </div> -->
 
         <ul>
-            <li><a href="/main.jsp">메인</a></li>
-            <li><a class="current" href="/rank.jsp">팔로우 순위</a></li>
-            <li><a href="/board.jsp">게시판</a></li>
-            <li><a href="/profile.jsp">프로필</a></li>
+            <li><a href="./mainfeed.jsp">메인</a></li>
+            <li><a class="current" href="./rank.jsp">팔로우 순위</a></li>
+            <li><a href="./board.jsp">게시판</a></li>
+            <li><a href="./profile.jsp">프로필</a></li>
         </ul>
 
         <div class="sub_nav">

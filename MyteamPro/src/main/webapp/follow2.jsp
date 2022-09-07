@@ -14,8 +14,9 @@
 
     <div class="follow_container">
         <div class="top_nav">
-            <div class="logo_box"><img class="logo" src="./images/logoname.png"></div>
-            <div class="icon_box"><i class="fa-solid fa-user fa-2x"></i> &nbsp&nbsp <i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
+            <div class="logo_box"><a href = "./mainfeed.jsp"><img class="logo" src="./images/logoname.png"></a></div>
+            <div class="icon_box"><a href = "./profile.jsp"><i class="fa-solid fa-user fa-2x"></i></a> &nbsp&nbsp 
+            																			 <i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
         </div>
 
         <div class="sub_nav">
