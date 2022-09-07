@@ -17,10 +17,10 @@
 	<div class="ranking_container">
 		<div class="top_nav">
 			<div class="logo_box">
-				<img src="img/logoname.png" class="logo_box">
+				<img src="./images/logoname.png" class="logo_box">
 			</div>
 			<div class="icon_box">
-				<a href="porfile.html"><i class="fa-solid fa-user fa-lg"></a></i>
+				<a href="profile.jsp"><i class="fa-solid fa-user fa-lg"></a></i>
 				&nbsp&nbsp&nbsp <i class="fa-brands fa-facebook-messenger"></i>
 			</div>
 		</div>
@@ -33,8 +33,8 @@
         </div> -->
 		<!-- </div> -->
 		<ul>
-			<li><a href="mainpid.html">main feed</a></li>
-			<li><a href="/rank.jsp">팔로우 순위</a></li>
+			<li><a href="mainfeed.jsp">main feed</a></li>
+			<li><a href="rank.jsp">팔로우 순위</a></li>
 			<li><a href="/board.jsp">게시판</a></li>
 			<li><a href="/board.jsp">1:1 대화방</a></li>
 		</ul>
@@ -55,12 +55,12 @@
                 
             </div>
             <div class="main-img2">
-				<img src="img/cover 5.png" class="main-img">
+				<img src="./images/cover 5.png" class="main-img">
 			</div>
 		</div>
 		<div class="main-tag">
-            <img src="img/up.png" class="main-tag">
-            <img src="img/comment.png" class="main-tag">
+            <img src="./images/up.png" class="main-tag">
+            <img src="./images/comment.png" class="main-tag">
             <br>n명이 좋아합니다.
 		</div>
 		
