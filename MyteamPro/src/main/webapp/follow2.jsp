@@ -14,7 +14,7 @@
 
     <div class="follow_container">
         <div class="top_nav">
-            <div class="logo_box"><img class="logo" src="/images/LogoName.png"></div>
+            <div class="logo_box"><img class="logo" src="./images/logoname.png"></div>
             <div class="icon_box"><i class="fa-solid fa-user fa-2x"></i> &nbsp&nbsp <i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
         </div>
 
