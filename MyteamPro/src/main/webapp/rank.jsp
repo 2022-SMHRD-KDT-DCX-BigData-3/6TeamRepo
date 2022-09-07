@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>팔로워 순위</title>
-    <link rel="stylesheet" href="rank.css">
+    <link rel="stylesheet" href="assets/css/rank.css">
     <script src="https://kit.fontawesome.com/0e85598c6a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div class="rank_container">
         <div class="top_nav">
-            <div class="logo_box"><img class="logo" src="/images/LogoName.png"></div>
+            <div class="logo_box"><img class="logo" src="/images/logoname.png"></div>
             <div class="icon_box"><i class="fa-solid fa-user fa-2x"></i> &nbsp&nbsp <i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
         </div>
 
