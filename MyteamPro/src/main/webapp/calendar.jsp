@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/calendar.css">
+    <link rel="stylesheet" href="./assets/css/calendar.css">
     <script src="https://kit.fontawesome.com/0e85598c6a.js" crossorigin="anonymous"></script>
     <title>calendar</title>
 </head>
@@ -40,7 +40,7 @@
             <div class="dates"></div>
             </div>
         </div>
-        <script src="/assets/js/calendar.js"></script>
+        <script src="./assets/js/calendar.js"></script>
     </div>
 
 </body>
