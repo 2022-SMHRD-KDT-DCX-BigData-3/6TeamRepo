@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+}
+
+.rank_container{
+    border:2px solid black;
+    width: 500px;
+    height: 900px;
+    /* 1. display block 
+    margin: 위 오른 아래 왼; */
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    color: navy;
+    /* background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); */
+}
+
+.top_nav{
+    /* border:2px solid red; */
+    padding: 10px;
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 5vh;
+}
+
+.logo_box{
+    /* border:2px solid green; */
+    width: 120px;
+    height: 130px;
+    margin-top : -25px;
+    display:inline-block;
+}
+
+.icon_box{
+    /* border:2px solid yellow; */
+    margin-top : 5px;
+    display:inline-block;
+    float: right;
+    /* display: inline-flex; */
+}
+
+.logo{
+    width: 120%;
+    margin-top: -30px;
+}
+
+ul {
+    /* background: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); */
+    list-style-type: none;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+li { display: inline-block; }
+li a {
+    display: block;
+    /* background: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); */
+    color: navy;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+li a.current {
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    color: white;
+}
+li a:hover:not(.current) {
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    color: white;
+}
+
+/* .menu_nav{
+    border:2px solid blue;
+    padding: 10px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_nav_item{
+    border:2px solid black;
+    display: inline-block;
+    flex: 1;
+    height: 30px;
+    text-align: center;
+    height: 4vh;
+} */
+
+.sub_nav{
+    /* border: 2px solid red; */
+    padding: 0 20px;
+}
+
+.rank_nav{
+    /* border: 2px solid green; */
+}
+
+.rank_img{
+    display: inline-block;
+    border: 2px solid #ccc;
+    width: 65px;
+    height: 65px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 9px;
+    position: relative;
+}
+
+.rank_info{
+    display: inline-flex;
+    width: 300px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 27px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.rank_table{
+    text-align: center;
+    margin-left: -20%;
+    margin-top: -10%;
+}
+
+.rank_button{
+    /* float: right; */
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: #41a4e7;
+    color: white;
+}
