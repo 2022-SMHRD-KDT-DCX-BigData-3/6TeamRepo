@@ -29,12 +29,18 @@
                 </div>
 
                 <div class="info-item">
-                    100 <br> 팔로워
+                    <section id=block>
+                        <div>100</div>
+                        <a href="follow2.html"><div class="box">팔로워</div></a>
+                    </section>
                 </div>
 
                 <div class="info-item">
-                    100 <br> 팔로잉
-                </div>   
+                    <section id=block>
+                        <div>100</div>
+                      <a href="follow2.html"><div class="box">팔로잉</div></a>
+                    </section>
+                </div>  
             
             </div>
 
@@ -72,8 +78,8 @@
 
             <section class="feed_container">
                 <div class="feed_nav">
-                    <div class="feed_nav_item"><i class="fa-solid fa-table-cells fa-lg"></i>내 피드</div>
-                    <div class="feed_nav_item"><i class="fa-regular fa-calendar-days fa-lg"></i>운동 일정</div>
+                    <div class="feed_nav_item"><a href="profile.jsp"><i class="fa-solid fa-table-cells fa-lg"></i>내 피드</div>
+                    <div class="feed_nav_item"><a href="calendar2.jsp"><i class="fa-regular fa-calendar-days fa-lg"></i>운동 일정</a></div>
                 </div>
 
                 <div class="photo_item">
