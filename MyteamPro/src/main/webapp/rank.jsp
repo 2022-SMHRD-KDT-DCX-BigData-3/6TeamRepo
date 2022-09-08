@@ -14,9 +14,13 @@
 
     <div class="rank_container">
         <div class="top_nav">
-            <div class="logo_box"><a href="./mainfeed.jsp"><img class="logo" src="./images/logoname.png"></a></div>
-            <div class="icon_box"><a href="./profile.jsp"> <i class="fa-solid fa-user fa-2x"></a></i> &nbsp&nbsp 
-            																			<i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
+            <div class="logo_box">
+            	<a href="./mainfeed.jsp"><img class="logo" src="./images/logoname.png"></a>
+           	</div>
+            <div class="icon_box">
+            	<a href="./profile.jsp"> <i class="fa-solid fa-user fa-2x"></a></i> &nbsp&nbsp 
+				<i class="fa-solid fa-magnifying-glass fa-2x"></i>
+			</div>
         </div>
 
         <!-- <div class="menu_nav">
