@@ -71,7 +71,7 @@ body{
 } */
 
 .info-box{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-flex;
     width: 330px;
     height: 80px;
