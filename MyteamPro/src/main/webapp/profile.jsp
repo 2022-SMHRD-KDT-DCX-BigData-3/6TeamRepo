@@ -106,7 +106,7 @@
             </section>
 
             <nav class="bottom_nav">
-                <div class="bottom_nav_item"><i class="fa-solid fa-house"></i></div>
+                <div class="bottom_nav_item"><a href = "./mainfeed.jsp"><i class="fa-solid fa-house"></i></a></div>
                 <div class="bottom_nav_item"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <div class="bottom_nav_item"><i class="fa-solid fa-square-plus"></i></div>
                 <div class="bottom_nav_item"><i class="fa-solid fa-user-group"></i></div>
