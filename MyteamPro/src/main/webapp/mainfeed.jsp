@@ -34,7 +34,7 @@
         </div> -->
 		<!-- </div> -->
 		<ul>
-			<li><a href="mainfeed.jsp">main feed</a></li>
+			<li><a class="current" href="mainfeed.jsp">스토리</a></li>
 			<li><a href="rank.jsp">팔로우 순위</a></li>
 			<li><a href="/board.jsp">게시판</a></li>
 			<li><a href="/board.jsp">1:1 대화방</a></li>
