@@ -31,14 +31,14 @@
                 <div class="info-item">
                     <section id=block>
                         <div>100</div>
-                        <a href="follow2.html"><div class="box">팔로워</div></a>
+                        <a href="follow1.jsp"><div class="box">팔로워</div></a>
                     </section>
                 </div>
 
                 <div class="info-item">
                     <section id=block>
                         <div>100</div>
-                      <a href="follow2.html"><div class="box">팔로잉</div></a>
+                      <a href="follow2.jsp"><div class="box">팔로잉</div></a>
                     </section>
                 </div>  
             
