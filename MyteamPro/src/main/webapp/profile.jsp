@@ -75,7 +75,7 @@
                 </div> 
     
                 <div class="pr_edit">
-                    프로필 편집
+                    게시물 작성
                 </div>
     
                 <section class="feed_container">
