@@ -16,7 +16,7 @@
         <div class="header">
             <div class="header_inner">
                 <div class="logo_box">
-                    <a href=""><img src="./images/logoname.png" class="logo"></a>
+                    <a href="./index.jsp"><img src="./images/logoname.png" class="logo"></a>
                 </div>
                 <div class="icon_box">
                     <nav class="icon_box_item">
@@ -25,15 +25,15 @@
                             <li><i class="fa-regular fa-comments fa-2x"></i>
                                 <!-- <i class="fa-regular fa-paper-plane fa-2x"></i> -->
                             </li>
-                            <li><i class="fa-solid fa-circle-user fa-2x"></i></li>
+                            <li><a href="./profile.jsp"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
                             <!-- <li><i class="fa-solid fa-magnifying-glass fa-2x"></i></li> -->
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="header_menu">
-                <div class="header_menu_item">인기 피드</div>
-                <div class="header_menu_item">팔로우 순위</div>
+                <div class="header_menu_item"><a href="./index.jsp">인기 피드</a></div>
+                <div class="header_menu_item"><a href="./rank.jsp">팔로우 순위</a></div>
                 <div class="header_menu_item">스토리</div>
             </div>
         </div>
