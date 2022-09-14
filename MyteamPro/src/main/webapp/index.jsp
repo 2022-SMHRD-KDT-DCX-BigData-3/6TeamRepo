@@ -52,9 +52,9 @@
             <div class="feed">
                 <div class="feed_userbox">
                     <div class="user_imgbox">
-                        <img class="user_img" src="./images/profile.png">
+                        <img class="user_img" src="./images/프로필1.png">
                     </div>
-                    <div class="user_name">닉네임</div>
+                    <nav class="user_name">hellohellchang</nav>
                     <div class="user_iconbox">
                         <nav class="user_iconbox_item">
                             <ul>
@@ -68,8 +68,53 @@
                     <div class="feed_imgbox">
                         <img class="feed_img" src="./images/오운완3.jpeg">
                     </div>
-                    <div class="feed_textbox"></div>
-                    <div class="feed_btnbox"></div>
+                    <div class="feed_btnbox">
+                        <ul>
+                            <li><i class="fa-regular fa-thumbs-up fa-2x"></i></li>
+                            <li><i class="fa-regular fa-message fa-2x"></i></li>
+                            <li><i class="fa-solid fa-share-nodes fa-2x"></i></li>
+                        </ul>
+                        <nav class="btnbox_like"><b>15명</b>이 좋아합니다</nav>
+                    </div>
+                    <div class="feed_textbox">
+                        <nav class="text_item">
+                            오운완!!  3대 800까지 가즈아!
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="feed">
+                <div class="feed_userbox">
+                    <div class="user_imgbox">
+                        <img class="user_img" src="./images/profile.png">
+                    </div>
+                    <nav class="user_name">닉네임</nav>
+                    <div class="user_iconbox">
+                        <nav class="user_iconbox_item">
+                            <ul>
+                                <li>팔로우</li>
+                                <li><i class="fa-solid fa-ellipsis fa-2x"></i></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="feed_small">
+                    <div class="feed_imgbox">
+                        <img class="feed_img" src="./images/피드1.jpg">
+                    </div>
+                    <div class="feed_btnbox">
+                        <ul>
+                            <li><i class="fa-regular fa-thumbs-up fa-2x"></i></li>
+                            <li><i class="fa-regular fa-message fa-2x"></i></li>
+                            <li><i class="fa-solid fa-share-nodes fa-2x"></i></li>
+                        </ul>
+                        <nav class="btnbox_like"><b>11명</b>이 좋아합니다</nav>
+                    </div>
+                    <div class="feed_textbox">
+                        <nav class="text_item">
+                            날씨가 이렇게 좋은데 운동 가야겠죠?
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
