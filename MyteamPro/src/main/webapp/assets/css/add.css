@@ -90,8 +90,10 @@ li{
 .rank_container{
     border: 2px solid black;
     width: 70%;
+    margin-top: 20px;
     margin-left: 15%;
     padding: 0 10px;
+    border-radius: 30px;
 }
 
 .search_nav{
@@ -108,6 +110,7 @@ li{
     height: 90%;
     padding: 10px;
     background: #222;
+    border-radius: 30px;
 }
 
 .search_txt{
@@ -130,6 +133,7 @@ li{
     align-items: center;
     float: right;
     color: #ffffff;
+    border: none;
 }
 
 .sub_nav{

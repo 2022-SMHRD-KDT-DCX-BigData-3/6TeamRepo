@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="sub_nav">
-                <h3>추천 헬창
+                <h3>추천 회원
             </div>
     
             <div class="rank_nav">

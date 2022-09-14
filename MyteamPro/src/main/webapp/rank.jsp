@@ -37,7 +37,7 @@
 
         <div class="rank_container">
             <div class="sub_nav">
-                <h3>오늘의 인기헬창
+                <h3>오늘의 인기회원
             </div>
     
             <div class="rank_nav">
