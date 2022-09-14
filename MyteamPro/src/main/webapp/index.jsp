@@ -21,12 +21,9 @@
                 <div class="icon_box">
                     <nav class="icon_box_item">
                         <ul>
-                            <li><i class="fa-solid fa-user-plus fa-2x"></i></li>
-                            <li><i class="fa-regular fa-comments fa-2x"></i>
-                                <!-- <i class="fa-regular fa-paper-plane fa-2x"></i> -->
-                            </li>
+                            <li><a href="./add.jsp"><i class="fa-solid fa-user-plus fa-2x"></i></a></li>
+                            <li><a href=""><i class="fa-regular fa-comments fa-2x"></i></a></li>
                             <li><a href="./profile.jsp"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
-                            <!-- <li><i class="fa-solid fa-magnifying-glass fa-2x"></i></li> -->
                         </ul>
                     </nav>
                 </div>

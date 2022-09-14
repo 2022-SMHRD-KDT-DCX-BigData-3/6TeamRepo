@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rank Page</title>
-    <link rel="stylesheet" href="assets/css/rank.css">
+    <title>Addition Page</title>
+    <link rel="stylesheet" href="assets/css/add.css">
     <script src="https://kit.fontawesome.com/0e85598c6a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -36,8 +36,18 @@
         </div>
 
         <div class="rank_container">
+            <div class="search_nav">
+                <div class="search_box">
+                    <form action="." method="post">
+                        <input class="search_txt" type="text" placeholder="닉네임 입력">
+                        <button class="search_btn" type="submit">
+                            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
             <div class="sub_nav">
-                <h3>오늘의 인기헬창
+                <h3>추천 헬창
             </div>
     
             <div class="rank_nav">
@@ -75,7 +85,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -92,7 +102,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -109,7 +119,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -126,7 +136,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -143,7 +153,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -160,7 +170,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -177,7 +187,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -194,7 +204,7 @@
                 <div class="rank_button">
                     <button class="btn">팔로우</button>
                 </div>
-            </div><div class="rank_nav">
+            </div>            <div class="rank_nav">
                 <div class="rank_img"></div>
                 <div class="rank_info">
                     <table class="rank_table">
@@ -212,9 +222,5 @@
                     <button class="btn">팔로우</button>
                 </div>
             </div>
-
-        </div>
-    </div>
-
 </body>
 </html>
