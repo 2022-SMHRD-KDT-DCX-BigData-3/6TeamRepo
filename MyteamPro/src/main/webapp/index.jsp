@@ -56,7 +56,9 @@
                         <nav class="user_iconbox_item">
                             <ul>
                                 <li>팔로우</li>
-                                <li><i class="fa-solid fa-ellipsis fa-2x"></i></li>
+                                <li>
+                                <%-- <i class="fa-solid fa-ellipsis fa-2x"></i> --%>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -90,7 +92,9 @@
                         <nav class="user_iconbox_item">
                             <ul>
                                 <li>팔로우</li>
-                                <li><i class="fa-solid fa-ellipsis fa-2x"></i></li>
+                                <li>
+                                <%-- <i class="fa-solid fa-ellipsis fa-2x"></i> --%>
+                                </li>
                             </ul>
                         </nav>
                     </div>

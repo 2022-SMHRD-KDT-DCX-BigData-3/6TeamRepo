@@ -35,80 +35,50 @@
             </div>
         </div>
 
-        <div class="insta-container">
-            <div class="top-nav">
-                <div class="nick"></div>
-                <div class="menu"><i class="fa-solid fa-bars pull-right fa-2x"></i></div>
+        <div class="mypage_container">
+            <div class="top_nav">
+                <div class="my_box">
+                    <div class="img_box">
+                        <div class="my_img">
+                            <img class="user_img" src="./images/프로필1.png">
+                        </div>
+                    </div>
+                    <div class="my_intro">
+                        <div class="my_name">닉네임</div>
+                        <div class="my_follow">
+                            <span class="my_followbox">팔로잉</span>
+                            <span class="my_followbox">10</span>
+                        </div>
+                        <div class="my_follow">
+                            <span class="my_followbox">팔로워</span>
+                            <span class="my_followbox">10</span>
+                        </div>
+                    </div>
+                    <div class="my_iconbox">
+                        <div class="my_iconbox_item">
+                            <section id=inline>
+                                <div class="icon"><i class="fa-regular fa-thumbs-up fa-2x"></i></div>
+                                <div>좋아요</div>
+                            </section>
+                            <section id=inline>
+                                <div class="icon"><i class="fa-regular fa-bookmark fa-2x"></i></div>
+                                <div>스크랩</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-    
-            <div class="ac-info">
-                <div class="info_box">
-                    <div class="pr-img">
-                        <img class="web_img" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTNfMTc5%2FMDAxNjI2MTQxNTM1Njkz.FepJSK21NB7QrPPtJTDpBIu6Gs6p-SuKLOMkbiO05VYg.w6tONHUz8t3zZvPLZ_-ZEBb8290rFyLvkqFiz-bVCAQg.JPEG.chimmy1004%2FIMG_0530.JPG&type=sc960_832" alt="프로필_사진">
+            <div class="pic_nav">
+                <div class="pic_box">
+                    <div class="plus">
+                        <div class="plus_box"><i class="fa-solid fa-plus fa-2x"></i></div>
                     </div>
-                    
-                    <div class="follow-box">
-                        <div class="follow-item">
-                            <section id=block>
-                                <div>10</div>
-                                <a href=""><div class="box">게시물</div></a>
-                            </section>
-                        </div>
-                        <div class="follow-item">
-                            <section id=block>
-                                <div>100</div>
-                                <a href=""><div class="box">팔로워</div></a>
-                            </section>
-                        </div>
-                        <div class="follow-item">
-                            <section id=block>
-                                <div>100</div>
-                              <a href=""><div class="box">팔로잉</div></a>
-                            </section>
-                        </div>  
+                    <div class="text_box">
+                        <div class="text_item1">아직 활동 게시물이 없어요!</div>
+                        <div class="text_item2">운동을 완료하고 게시물을 등록해보세요.</div>
                     </div>
                 </div>
-                    
-                <div class="myname">
-                    닉네임 <br>
-                    총 0일 운동 완료
-                </div> 
-    
-                <div class="pr_edit">
-                    게시물 작성
-                </div>
-    
-                <section class="feed_container">
-    
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                    <div class="photo_item">
-                        
-                    </div>
-                </section>
-    
             </div>
         </div>
 
