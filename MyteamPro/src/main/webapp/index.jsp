@@ -29,9 +29,9 @@
                 </div>
             </div>
             <div class="header_menu">
-                <div class="header_menu_item"><a href="./index.jsp">인기 피드</a></div>
-                <div class="header_menu_item"><a href="./rank.jsp">팔로우 순위</a></div>
-                <div class="header_menu_item">스토리</div>
+                <a href="./index.jsp"><div class="header_menu_item">인기 피드</div></a>
+                <a href="./rank.jsp"><div class="header_menu_item">팔로우 순위</div></a>
+                <a href=""><div class="header_menu_item">캘린더</div></a>
             </div>
         </div>
         

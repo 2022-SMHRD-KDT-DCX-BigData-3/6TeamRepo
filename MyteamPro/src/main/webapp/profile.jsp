@@ -29,9 +29,9 @@
                 </div>
             </div>
             <div class="header_menu">
-                <div class="header_menu_item"><a href="./index.jsp">인기 피드</a></div>
-                <div class="header_menu_item"><a href="./rank.jsp">팔로우 순위</a></div>
-                <div class="header_menu_item">스토리</div>
+                <a href="./index.jsp"><div class="header_menu_item">인기 피드</div></a>
+                <a href="./rank.jsp"><div class="header_menu_item">팔로우 순위</div></a>
+                <a href=""><div class="header_menu_item">캘린더</div></a>
             </div>
         </div>
 
@@ -57,22 +57,24 @@
                     <div class="my_iconbox">
                         <div class="my_iconbox_item">
                             <section id=inline>
-                                <div class="icon"><i class="fa-regular fa-thumbs-up fa-2x"></i></div>
+                                <a href=""><div class="icon"><i class="fa-regular fa-thumbs-up fa-2x"></i></div></a>
                                 <div>좋아요</div>
                             </section>
                             <section id=inline>
-                                <div class="icon"><i class="fa-regular fa-bookmark fa-2x"></i></div>
+                                <a href=""><div class="icon"><i class="fa-regular fa-bookmark fa-2x"></i></div></a>
                                 <div>스크랩</div>
                             </section>
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="pr_edit">
+                <a href="">프로필 편집</a>
             </div>
             <div class="pic_nav">
                 <div class="pic_box">
                     <div class="plus">
-                        <div class="plus_box"><i class="fa-solid fa-plus fa-2x"></i></div>
+                        <a href=""><div class="plus_box"><i class="fa-solid fa-plus fa-2x"></i></div></a>
                     </div>
                     <div class="text_box">
                         <div class="text_item1">아직 활동 게시물이 없어요!</div>
