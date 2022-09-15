@@ -116,6 +116,7 @@ li{
 
 .feed{
     /* border: 2px solid yellow; */
+    margin-bottom: 20px;
 }
 
 .feed_userbox{
@@ -145,7 +146,7 @@ li{
     margin-left: 20px;
     color: navy;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .user_iconbox{
@@ -208,4 +209,5 @@ li{
 .text_item{
     font-weight: 700;
     font-size: 18px;
+    margin-left: 30px;
 }

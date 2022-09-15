@@ -21,6 +21,7 @@
                 <div class="icon_box">
                     <nav class="icon_box_item">
                         <ul>
+                        	<li><a href=""><i class="fa-solid fa-pen fa-2x"></i></a></li>
                             <li><a href="./add.jsp"><i class="fa-solid fa-user-plus fa-2x"></i></a></li>
                             <li><a href=""><i class="fa-regular fa-comments fa-2x"></i></a></li>
                             <li><a href="./profile.jsp"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
@@ -38,12 +39,12 @@
         <div class="feed_container">
             <div class="feed_header">
                 <div class="hashtag_box">
-                    <div class="hashtag_item">#오운완</div>
-                    <div class="hashtag_item">#스쿼트</div>
-                    <div class="hashtag_item">#데드리프트</div>
-                    <div class="hashtag_item">#벤치프레스</div>
-                    <div class="hashtag_item">#바디프로필</div>
-                    <div class="hashtag_item">#다이어트</div>
+                    <a href=""><div class="hashtag_item">#오운완</div></a>
+                    <a href=""><div class="hashtag_item">#스쿼트</div></a>
+                    <a href=""><div class="hashtag_item">#데드리프트</div></a>
+                    <a href=""><div class="hashtag_item">#벤치프레스</div></a>
+                    <a href=""><div class="hashtag_item">#바디프로필</div></a>
+                    <a href=""><div class="hashtag_item">#다이어트</div></a>
                 </div>
             </div>
             <div class="feed">
@@ -51,16 +52,16 @@
                     <div class="user_imgbox">
                         <img class="user_img" src="./images/프로필1.png">
                     </div>
-                    <nav class="user_name">hellohellchang</nav>
+                    <span class="user_name">hellohellchang</span>
                     <div class="user_iconbox">
-                        <nav class="user_iconbox_item">
+                        <div class="user_iconbox_item">
                             <ul>
-                                <li>팔로우</li>
+                                <li><a href="">팔로우</a></li>
                                 <li>
                                 <%-- <i class="fa-solid fa-ellipsis fa-2x"></i> --%>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
                     </div>
                 </div>
                 <div class="feed_small">
@@ -69,16 +70,17 @@
                     </div>
                     <div class="feed_btnbox">
                         <ul>
-                            <li><i class="fa-regular fa-thumbs-up fa-2x"></i></li>
-                            <li><i class="fa-regular fa-message fa-2x"></i></li>
-                            <li><i class="fa-solid fa-share-nodes fa-2x"></i></li>
+                            <a href=""><li><i class="fa-regular fa-thumbs-up fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-regular fa-message fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-solid fa-share-nodes fa-2x"></i></li></a>
                         </ul>
-                        <nav class="btnbox_like"><b>15명</b>이 좋아합니다</nav>
+                        <div class="btnbox_like"><b>15명</b>이 좋아합니다</div>
                     </div>
                     <div class="feed_textbox">
-                        <nav class="text_item">
+                    	<span class="user_name">hellohellchang</span>
+                        <span class="text_item">
                             오운완!!  3대 800까지 가즈아!
-                        </nav>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -87,16 +89,16 @@
                     <div class="user_imgbox">
                         <img class="user_img" src="./images/profile.png">
                     </div>
-                    <nav class="user_name">닉네임</nav>
+                    <span class="user_name">gurueming</span>
                     <div class="user_iconbox">
-                        <nav class="user_iconbox_item">
+                        <div class="user_iconbox_item">
                             <ul>
-                                <li>팔로우</li>
+                                <li><a href="">팔로우</a></li>
                                 <li>
                                 <%-- <i class="fa-solid fa-ellipsis fa-2x"></i> --%>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
                     </div>
                 </div>
                 <div class="feed_small">
@@ -105,20 +107,58 @@
                     </div>
                     <div class="feed_btnbox">
                         <ul>
-                            <li><i class="fa-regular fa-thumbs-up fa-2x"></i></li>
-                            <li><i class="fa-regular fa-message fa-2x"></i></li>
-                            <li><i class="fa-solid fa-share-nodes fa-2x"></i></li>
+                            <a href=""><li><i class="fa-regular fa-thumbs-up fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-regular fa-message fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-solid fa-share-nodes fa-2x"></i></li></a>
                         </ul>
-                        <nav class="btnbox_like"><b>11명</b>이 좋아합니다</nav>
+                        <div class="btnbox_like"><b>11명</b>이 좋아합니다</div>
                     </div>
                     <div class="feed_textbox">
-                        <nav class="text_item">
+                    	<span class="user_name">gurueming</span>
+                        <span class="text_item">
                             날씨가 이렇게 좋은데 운동 가야겠죠?
-                        </nav>
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="feed">
+                <div class="feed_userbox">
+                    <div class="user_imgbox">
+                        <img class="user_img" src="./images/프로필2.png">
+                    </div>
+                    <span class="user_name">imqueen</span>
+                    <div class="user_iconbox">
+                        <div class="user_iconbox_item">
+                            <ul>
+                                <li><a href="">팔로우</a></li>
+                                <li>
+                                <!-- <i class="fa-solid fa-ellipsis fa-2x"></i> -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="feed_small">
+                    <div class="feed_imgbox">
+                        <img class="feed_img" src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/70/5177e4686d9ce13664b265fbb594fdae_res.jpeg">
+                    </div>
+                    <div class="feed_btnbox">
+                        <ul>
+                            <a href=""><li><i class="fa-regular fa-thumbs-up fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-regular fa-message fa-2x"></i></li></a>
+                            <a href=""><li><i class="fa-solid fa-share-nodes fa-2x"></i></li></a>
+                        </ul>
+                        <div class="btnbox_like"><b>1100명</b>이 좋아합니다</div>
+                    </div>
+                    <div class="feed_textbox">
+                    	<span class="user_name">imqueen</span>
+                        <span class="text_item">
+                            추석에 먹은 것 반성!
+                        </span>
+                    </div>
+                </div>
+            </div>
     </div>
 </body>
 </html>
