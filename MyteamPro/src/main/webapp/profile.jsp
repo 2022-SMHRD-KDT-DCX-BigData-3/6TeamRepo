@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="pr_edit">
-                <a href="">프로필 편집</a>
+                <a href="./profile_edit.jsp">프로필 편집</a>
             </div>
             <div class="pic_nav">
                 <div class="pic_box">

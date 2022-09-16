@@ -29,14 +29,14 @@
                     <a href="./index.jsp"><img src="./images/logoname.png" class="logo"></a>
                 </div>
                 <div class="icon_box">
-                    <nav class="icon_box_item">
+                    <div class="icon_box_item">
                         <ul>
                         	<li><a href=""><i class="fa-solid fa-pen fa-2x"></i></a></li>
                             <li><a href="./add.jsp"><i class="fa-solid fa-user-plus fa-2x"></i></a></li>
                             <li><a href=""><i class="fa-regular fa-comments fa-2x"></i></a></li>
                             <li><a href="./profile.jsp"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
             <div class="header_menu">
@@ -52,9 +52,9 @@
                     <div class="img_box">
                         <div class="my_img">
                             <img class="user_img" src="./images/run.jpg">
-                            <span class="material-symbols-sharp" style="position:relative;bottom: 25px; left:90px; background-color:black; color:white;">
+                            <a href=""><span class="material-symbols-sharp" style="position:relative;bottom: 25px; left:90px; background-color:black; color:white;">
                               photo_camera
-                            </span>
+                            </span></a>
                             
                         </div>
                     </div>
