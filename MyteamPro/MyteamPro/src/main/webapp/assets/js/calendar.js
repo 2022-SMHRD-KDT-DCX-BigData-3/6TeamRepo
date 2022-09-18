@@ -69,35 +69,3 @@ const goToday = () => {
   date = new Date();
   renderCalender();
 };
-
-
-var edittodo;
-
-    function schedule_insert(){
-      var num =$("#input_day").val()-1;
-      $($(".dates").children()[num]).append("<div class ='parent'><div class = 'to_do'>" + $("#toDo").val()+ "</div><div><button type='button' class ='btn btn-outline-dark btn-sm m-1' onclick='edit(this)'>수정</button><button type='button' class ='btn btn-outline-dark btn-sm m-1' onclick='schedule_remove(this)'>삭제</button></div></div>");
-    }
-
-    function schedule_removeAll(){
-      $(".to_do").parent().remove();
-    }
-
-    function edit(ths){
-      if( $("#edit_").hasClass("d-none")){
-        $("#edit_").removeClass("d-none");
-        edittodo = ths;
-        $('#edit_list').val($($($(edittodo).parent()).parent('.parent')).children('.to_do').text());
-      }
-      else{
-        $("#edit_").addClass("d-none");
-      }
-    }
-
-    function schedule_edit(){
-      $($($(edittodo).parent()).parent('.parent')).children('.to_do').text($('#edit_list').val());
-      $("#edit_").addClass("d-none");
-    }
-
-    function schedule_remove(ths){
-      $($(ths).parent()).parent().remove();
-    }

@@ -1,0 +1,159 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+}
+
+.ranking_container{
+    border:2px solid black;
+    width: 500px;
+    height: 95vh;
+    /* 1. display block 
+    margin: 위 오른 아래 왼; */
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    color: navy;
+}
+
+.top_nav{
+    /* border:2px solid red; */
+    padding: 10px;
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 5vh;
+}
+
+/* 메인 로고 */
+.logo_box{
+    /* border:2px solid green; */
+    width: 120px;
+    height: 130px;
+    margin-top : -25px;
+    display:inline-block;
+}
+
+/* nav 상단 오른쪽 */
+.icon_box{
+    /* border:2px solid yellow; */
+    margin-top : 5px;
+    display:inline-block;
+    float: right;
+    /* display: inline-flex; */
+}
+
+.logo{
+    width: 120%;
+    margin-top: -30px;
+}
+
+ul {
+    /* background: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); */
+    list-style-type: none;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+li { display: inline-block; }
+li a {
+    display: block;
+    /* background: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); */
+    color: navy;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+li a.current {
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    color: white;
+}
+li a:hover:not(.current) {
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    color: white;
+}
+
+
+
+.pr-img{
+    display: inline-block;
+    height: 100%;
+    border: 2px solid brown;
+    /* float: left; */
+    border-radius: 50%;
+    margin-left: 10px;
+    position: inline;
+}
+.web_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.menu_nav{
+    /* border:2px solid blue; */
+    padding: 10px;
+    bottom: 0px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 글쓰기 이미지 위치 및 크기조정 */
+.menu_nav_item{
+    /* border:2px solid black; */
+    display: inline-block;
+    flex: 1;
+    height: 30px;
+    text-align: center;
+    height: 4vh;
+}
+
+.story-plus{
+    display: inline;
+    height: 20px;
+    float: right;
+    margin : 0px 10px 0px 0px;
+}
+
+.main{
+    /* border:2px solid red; */
+    display : inline-block;
+    height: 65vh;
+    width: 99% ;
+    margin-top: 10px;
+
+}
+
+/* 메인 게시물 */
+.main-img{
+    /* border:2px solid red; */
+    margin-top : 10px;
+    height: 100%;
+    width: 100% ;
+}
+/* 메인 그림 */
+.main-img2{
+    /* border:2px solid red; */
+    top : 10px;
+    height: 88%;
+    width: 100% ;
+}
+/* 메인 글쓴이 이미지,nick,fllow */
+.main-img1{
+    /* border:2px solid red; */
+    height: 4vh;
+    width: 100% ;
+
+}
+
+/* 하단 좋아요 댓글  */
+.main-tag{
+    /* border:2px solid purple; */
+    display : inline-block;
+    height: 3vh;
+}
+

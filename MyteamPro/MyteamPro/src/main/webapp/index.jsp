@@ -82,15 +82,6 @@
                             오운완!!  3대 800까지 가즈아!
                         </span>
                     </div>
-                    <div class="comment_box">
-                        <input id="check-btn" type="checkbox" />
-                        <label for="check-btn">댓글 보기</label>
-                        <ul class="menubars">
-                            <li><span class="comment_imgbox"></span></li>
-                            <li><span>닉네임</span></li>
-                            <li><input type="text" placeholder="댓글 쓰기"><button>작성</button></li>
-                        </ul> 
-                    </div>
                 </div>
             </div>
             <div class="feed">
@@ -127,15 +118,6 @@
                         <span class="text_item">
                             날씨가 이렇게 좋은데 운동 가야겠죠?
                         </span>
-                    </div>
-                    <div class="comment_box">
-                        <input id="check-btn" type="checkbox" />
-                        <label for="check-btn">댓글 보기</label>
-                        <ul class="menubars">
-                            <li><span class="comment_imgbox"></span></li>
-                            <li><span>닉네임</span></li>
-                            <li><input type="text" placeholder="댓글 쓰기"><button>작성</button></li>
-                        </ul> 
                     </div>
                 </div>
             </div>
@@ -174,15 +156,6 @@
                         <span class="text_item">
                             추석에 먹은 것 반성!
                         </span>
-                    </div>
-                    <div class="comment_box">
-                        <input id="check-btn" type="checkbox" />
-                        <label for="check-btn">댓글 보기</label>
-                        <ul class="menubars">
-                            <li><span class="comment_imgbox"></span></li>
-                            <li><span>닉네임</span></li>
-                            <li><input type="text" placeholder="댓글 쓰기"><button>작성</button></li>
-                        </ul> 
                     </div>
                 </div>
             </div>
