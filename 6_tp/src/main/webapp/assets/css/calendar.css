@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body{
+    /* font-family: -apple-system,BlinkMacSystemFont,Roboto,AppleSDGothicNeo-Regular,NanumBarunGothic,NanumGothic,나눔고딕,Segoe UI,Helveica,Arial,Malgun Gothic,Dotum,sans-serif;; */
+    color: #222;
+}
+
+.container-fluid{
+    /* border: 2px solid black; */
+    padding: 10px;
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.col{
+    /* border: 2px solid red; */
+}
+
+.logo_box{
+    /* border: 2px solid lawngreen; */
+    box-sizing: border-box;
+    /* float: left; */
+}
+
+.logo{
+    width: 200px;
+    margin-top: -13%;
+    margin-bottom: -15%;
+}
+
+.icon_box{
+    float: right;
+    margin-top: 10px;
+}
+
+.icon_box_item{
+    /* border: 2px solid darkviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    margin-right: 30px;
+}
+
+.fa-2x{
+    color: #222;
+}
+
+.calendar {
+    /* border:2px solid red; */
+    width: 1100px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+  
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.year-month {
+font-size: 30px;
+}
+
+.nav {
+display: flex;
+border: 1px solid #333333;
+border-radius: 5px;
+}
+
+.nav-btn {
+width: 28px;
+height: 30px;
+border: none;
+font-size: 16px;
+line-height: 34px;
+background-color: transparent;
+cursor: pointer;
+}
+
+.go-today {
+width: 75px;
+border-left: 1px solid #333333;
+border-right: 1px solid #333333;
+}
+
+.days {
+display: flex;
+margin: 25px 0 10px;
+}
+
+.day {
+width: calc(100% / 7);
+text-align: center;
+}
+
+.dates {
+display: flex;
+flex-flow: row wrap;
+height: 500px;
+border-top: 1px solid #333333;
+border-right: 1px solid #333333;
+}
+
+.date {
+width: calc(100% / 7);
+padding: 15px;
+text-align: right;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #333333;
+}
+
+.day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+color: #bf0f0f;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+color: #104ac7;
+}
+
+.other {
+opacity: 0.3;
+}
+
+.today {
+/* position: relative; */
+color: yellow;
+background: #ec1414;
+}
+
+.title{
+font-size: 2em;
+text-align: center;
+}
+
+table{
+text-align: center;
+width: 1050;
+}
+
+td{
+height: 50px;
+width: 150px;
+}

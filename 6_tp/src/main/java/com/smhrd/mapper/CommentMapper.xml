@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.mapper.CommentMapper">
+
+<insert id="insertComment" parameterType="CommentDTO">
+     insert into tp_comment values(cmt_seq.nextval,bd_seq.nextval, cmt_comment=#{cmt_comment}, sysdate, mem_id=#{mem_id})
+</insert>
+
+<select id = "selectAllComment" parameterType="int" resultType="CommentDTO">
+      select * from tp_comment where cmt_seq = #{cmt_seq} order by cmt_seq desc
+</select>
+
+<delete id = "deleteComment" parameterType="int">
+   delete * from tp_comment where mem_id=#{mem_id}
+</delete>
+
+<update id = "updateComment" parameterType="int">
+   update tp_comment set cmt_content=#{cmt_content} where cmt_seq=#{cmt_seq}
+</update>
+
+<select id = "AllComment" resultType="CommentDTO">
+      select * from tp_comment 
+</select>
+
+</mapper>

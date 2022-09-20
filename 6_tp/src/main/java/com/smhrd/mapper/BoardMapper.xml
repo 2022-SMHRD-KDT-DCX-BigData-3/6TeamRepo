@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.mapper.BoardMapper">
+
+<select id="selectAllBoard" resultType="BoardDTO">
+   select * from tp_board
+</select>
+
+<insert id="insertBoard" parameterType="BoardDTO">
+     insert into tp_board values(bd_title=#{bd_title}, bd_content=#{content}, bd_file=#{bd_file}, ,sysdate, mem_id=#{mem_id})
+</insert>
+
+<delete id="deleteOneBoard" parameterType="int">
+   delete from tp_board where bd_seq=#{bd_seq}
+</delete>
+
+<select id="selectOneBoard" parameterType="int" resultType="BoardDTO">
+   select * from tp_board where bd_seq=#{bd_seq}
+</select>
+
+
+</mapper>

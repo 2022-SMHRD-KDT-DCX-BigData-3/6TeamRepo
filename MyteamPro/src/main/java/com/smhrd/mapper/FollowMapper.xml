@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.mapper.FollowMapper">
+<insert id="insertFollow" parameterType="FollowDTO">
+   insert into tp_follow values (follow_seq.nextval, following=#{mem_id}, follower=#{mem_id}, sysdate)
+</insert>
+<select id="selectAllFollow" parameterType="FollowDTO" resultType="FollowDTO">
+   select follower from tp_follow where following=#{mem_id}
+</select>
+
+<select id="selectAllFollowing" resultType="FollowDTO">
+	select following, follower from tp_follow
+</select>
+
+<select id="Following" resultType="FollowDTO">
+	select following from tp_follow group by following order by count(*) desc
+</select>
+
+<delete id="deleteFollow" parameterType="FollowDTO">
+   delete * from tp_follow where follow_seq = #{follow_seq}
+</delete>
+</mapper>

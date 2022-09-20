@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.smhrd.mapper.MemberMapper">
+		<insert id="join" parameterType="MemberDTO">
+				insert into tp_member values(#{mem_id}, #{mem_pw}, #{mem_name}, #{mem_nick}, #{mem_birthdate}, #{mem_gender}, sysdate, #{mem_type})
+		</insert>
+		
+		<select id="login" parameterType="MemberDTO" resultType="MemberDTO">
+				select * from tp_member where mem_id=#{mem_id} and mem_pw=#{mem_pw}
+		</select>
+		
+		<update id="update" parameterType="MemberDTO">
+				update tp_member set mem_nick=#{mem_nick} where mem_id=#{mem_id}
+		</update>
+		
+		<select id="idCheck" parameterType="String" resultType="String">
+				select mem_id from tp_member where mem_id = #{mem_id}
+		</select>
+		
+		<select id="getMember" resultType="MemberDTO">
+				select * from tp_member
+		</select>
+		
+</mapper>
